@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="container">
+          <a class="nav-logo-link" href="#">
+            <img class="nav-img" src="./images/logo.svg" alt="logo"
+          /></a>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+            <input
+            id="text"
+            value="log in"
+            disabled
+            type="text">
+            <input
+            id="text"
+            value="Open an account"
+            disabled
+            type="text">
+          </ul>
+        </nav>
+      </header>
+      <section class="box">
+        <div class="logo-img">
+          <img src="./images/logo.svg" alt="main-logo" />
+        </div>
+        <h1>Welcome to ByTrend!</h1>
+        <h3>Already have an account?</h3>
+        <div class="id"><a href="">Log in</a></div>
+         <label for="firstname">Firstname</label>
+        <form class="register" autocomplete="off" novalidate target="_blank">
+          <div class="input-box">
+            <input
+              id="firstname"
+              type="text"
+              placeholder="Firstname"
+              required
+              name="firstname"/>           
+             <div class="lastname"><label for="lastname">Lastname</label>
+              </div>
+            <div class="input-boxs">
+             <input
+              id="lastname"
+              type="text"
+              placeholder="Surname"
+              required
+              name="lastname"/>
+            <div class="date">
+               <input
+               type="date"
+               required
+               value="2007-12-16"
+               name="birthday"/>
+              
+               </div>
+               <div class="lab">
+              <label for="birthday">Birth date</label>
+             </div>
+          </div>
+          <div class="title">
+            <p>Gender</p>
+            </div>
+         <div class="men">
+           <label for="male">Male</label></div>
+          <div class="male-box">
+
+        <input
+                type="radio"
+                id="male"
+                name="gender"
+                value="male"
+                checked/>
+                </div>
+               
+               <div class="female-box">
+             <input type="radio" id="female" name="gender" value="female" />
+             <div class="woman"> </fieldset>
+              <label for="female">Female</label>
+              </div>
+            </div>
+          </form>
+          <p class="sky">Skype</p>
+          <div class="skype">
+            <input
+            id="email"
+            type="email"
+            placeholder="Your login Skype">
+          </div>
+           <p class="prom">Promo</p>
+          <div class="promo">
+            <input
+            id="promo"
+            type="text"
+            placeholder="Your promo">
+          </div>
+          <a href="./pages/register.html" class="computer">Continue</a>
+          <div class="arrow"><img src="./images/arrow_right_alt_FILL0_wght400_GRAD0_opsz24.svg" alt="arrow">
+            </div>
+      </section>
+    </div>
+  </body>
+</html>

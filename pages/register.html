@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+      <div class="container">
+      <header>
+        <nav class="container">
+          <a class="nav-logo-link" href="#">
+            <img class="nav-img" src="../images/logo.svg" alt="logo"
+          /></a>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+            <input
+            id="text"
+            value="log in"
+            disabled
+            type="text">
+            <input
+            id="text"
+            value="Open an account"
+            disabled
+            type="text">
+          </ul>
+        </nav>
+      </header>
+      <section class="box">
+        <div class="logo-img">
+          <img src="../images/logo.svg" alt="main-logo" />
+        </div>
+        <h1>Welcome to ByTrend!</h1>
+        <h3>Already have an account?</h3>
+        <div class="id"><a href="">Log in</a></div>
+              <div class="email">
+                <label for="email">Email</label>
+             <input
+          type="email"
+          placeholder="Email address"
+          value="@gmail.com"
+          required
+          name="email"
+        />
+            </div>
+             <div class="tel">
+                <label for="tel">Phone</label>
+             <input
+          type="tel"
+          placeholder=""
+           pattern="^\+998(33|7(0|1|7)|88|9\d{1})(\d{7})$"
+          oninvalid="this.setCustomValidity('Enter valid phone')"
+          value="+998"
+          required
+          name="tel"
+        />
+            </div>
+            <div class="select-box">
+            <label for="country">Country</label>
+            <select name="country" id="city">
+              <option value="Russia">Russia</option>
+              <option value="uzbekistan" selected>Uzbekistan</option>
+              <option value="turkish">Turkish</option>
+              <option value="USA">USA</option>
+            </select>
+          </div>
+     <div class="city">
+                <label for="email">City</label>
+             <input
+          type="text"
+          placeholder="Name of the city"
+          required
+          name="city"
+        />
+            </div>
+             <div class="input-box">
+            <label for="password">Password</label>
+            <input
+              id="password"
+              type="password"
+              placeholder="Password"
+              required
+              name="password"/>
+             <i class="bi bi-eye-slash" id="toggle-password"></i>
+        </section>
+        <main>
+          
+        </main>
+        <script src="../js/main.js"></script>
+</body>
+</html>

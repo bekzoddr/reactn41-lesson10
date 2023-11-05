@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* max-width: 1366px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    background-color: #fff;
+}
+header{
+    position: fixed;
+    background-color: #cdc3c3;
+    width:100%;
+        flex-shrink: 0;
+        box-shadow: 1;
+        width: 1366px;
+            height: 56px;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    margin-left: 717px;
+    text-decoration: none;
+
+}
+.nav-list{
+    gap: 50px;
+    color: black;
+        font-size: 14px;
+        position: relative ;
+        bottom: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.nav-link{
+    color: black;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+
+.nav-logo-link{
+    margin-left: 99px;
+   position: relative;
+    top: 8px;
+    bottom: 8px;
+}
+.box{
+    width: 496px;
+        height: 979px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: var(--White, #FFF);
+        box-shadow: 0px 4px 56px 0px rgba(0, 0, 0, 0.04), 0px 12px 16px 0px rgba(0, 0, 0, 0.04);
+        margin-left: 435px;
+        margin-right: 435px;
+        
+    
+}
+.logo-img{
+    margin-left: 182px;
+   position: relative;
+   top: 30px;
+}
+h1{
+    position: relative;
+    top: 64px;
+    left: 95px;
+    color: rgba(0, 0, 0, 0.85);
+        font-family: Segoe UI;
+        font-size: 29px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+h3{
+    color: #444150;
+         font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        position: relative;
+        top: 90px;
+        left: 120px;
+}
+.id{
+    position: relative;
+    top: 62px;
+    left: 300px;
+    color: var(--01-bab-3, hsl(178, 74%, 53%));
+        font-family: Segoe UI;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+}
+.input-box{
+    position: relative;
+    top: 120px;
+    left: 40px;
+    font-size: 30px;
+}
+.input-box input{
+    width: 200px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        border: 1px solid;
+    
+        
+
+}
+.input-box .placeholder{
+    text-align: center;
+}
+label {
+    position: relative;
+    top: 110px;
+    left: 40px;
+    color: #444150;
+        font-family: Segoe UI;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+    
+}
+.input-boxs input{
+    position: relative;
+    bottom: 73px;
+    left: 220px;
+    width: 200px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        border: 1px solid ;
+}
+.lastname{
+    position: relative;
+        bottom: 192px;
+        left: 180px;
+        color: #444150;
+        font-family: Segoe UI;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+
+}
+.date input{
+   width: 416px;
+   position: relative;
+   bottom: 40px;
+   left: 0;
+}
+.lab{
+  position: relative;
+    bottom: 235px;
+    right: 40px;
+}
+.mook {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 40px;
+    width: 200px;
+}
+
+.male-box {
+    position: relative;
+    bottom: 10px;
+    right: 75px;
+    
+}
+.female-box{
+    position: relative;
+    bottom: 63px;
+    left: 160px;
+    
+   
+}
+.men {
+    position: relative;
+    bottom: 85px;
+    left: 15px;
+    color: #444150;
+        font-family: Segoe UI;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+}
+.woman{
+    position: relative;
+    bottom: 162px;
+    left: 90px;
+    color: #444150;
+        font-family: Segoe UI;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+}
+.title{
+    position: relative;
+    bottom: 20px;
+    color: #060b05;
+        font-size: 30px;
+        font-style: normal;
+        line-height: 24px;
+        
+}
+.sky{
+    margin-bottom: 200px;
+}
+.skype input {
+    width: 416px;
+    height: 48px;
+    position: relative;
+    bottom: 190px;
+
+}
+.skype .placeholder{
+    font-size: 30px;
+    color: #444150;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        
+}
+.promo .placeholder {
+    font-size: 30px;
+    color: #444150;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.promo input {
+    width: 416px;
+    height: 48px;
+    position: relative;
+    bottom: 140px;}
+    .prom{
+        position: relative;
+        bottom: 150px;
+    }
+   .computer {
+            display: inline-block;
+                margin-bottom: 10px;
+                text-align: center;
+                margin-top: 30px;
+                margin-left: 200px;
+                width: 200px;
+                height: 44px;
+                border-radius: 5px;
+                background-color: aqua;
+                text-decoration: none;
+
+                position: relative;
+                bottom: 150px;
+                right: 90px;
+    }
+    .arrow{
+        position: relative;
+        left: 270px;
+        bottom: 200px;
+    }
